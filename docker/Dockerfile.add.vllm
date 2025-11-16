@@ -1,0 +1,3 @@
+FROM lmsysorg/sglang:v0.4.6.post5-cu124
+RUN python3 -m pip install --break-system-packages vllm==0.8.4
+
